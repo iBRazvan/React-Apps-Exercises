@@ -1,4 +1,4 @@
-# Task Manager
+# Andromeda Team Dashboard
 
 Learn React by implementing a Task Manager app alongside your Frontend mentor as a part of **React** course from [SkillBrain©](https://skillbrain.com/)
 
