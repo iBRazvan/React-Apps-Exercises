@@ -16,13 +16,39 @@ function App() {
       },
       avatar: require("./images/sapovalov_alexandru.jpg"),
     },
+    {
+      name: "Eladie Bumbar",
+      skillBrainPosition: "Mentorul mentorului",
+      actualJob: "Sclav",
+      shortDesctioption:
+        "Junior Front-End Developer enthusiast, seek and maintain full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.",
+      socialMediaLiks: {
+        gitHub: "https://github.com/Eladie",
+        linkedIn:
+          "https://www.linkedin.com/in/eladie-bumbar-b53857b6/",
+      },
+      avatar: require("./images/Eladie.jpg"),
+    },
   ];
 
   return (
     <div className="app-container">
       <h1>Andromeda Team</h1>
       <div className="content-container">
-        <Card cardData={data[0]} />
+        {
+          data.map((item) => (
+              <Card 
+                name={item.name} 
+                skillBrainPosition={item.skillBrainPosition} 
+                actualJob={item.actualJob} 
+                shortDesctioption={item.shortDesctioption} 
+                socialMediaLiks={item.socialMediaLiks} 
+                gitHub={item.gitHub} 
+                linkedIn={item.linkedIn} 
+                avatar={item.avatar} />
+          ))
+        }
+        
       </div>
     </div>
   );

@@ -6,19 +6,19 @@ function Card(props) {
     <div className="card">
       <div className="card-body">
         <div className="card-header">
-          <img src={props.cardData.avatar} className="avatar" />
+          <img src={props.avatar} className="avatar" />
           <div className="name-box">
-            <p>{props.cardData.name}</p>
+            <p>{props.name}</p>
             <p>
-              <b>{props.cardData.skillBrainPosition}</b>,{" "}
-              {props.cardData.actualJob}
+              <b>{props.skillBrainPosition}</b>,{" "}
+              {props.actualJob}
             </p>
           </div>
         </div>
-        <p className="card-text">{props.cardData.shortDesctioption}</p>
+        <p className="card-text">{props.shortDesctioption}</p>
         <div className="link-area">
           <a
-            href={props.cardData.socialMediaLiks.gitHub}
+            href={props.socialMediaLiks.gitHub}
             target="_blank"
             className="btn btn-primary"
           >
@@ -26,7 +26,7 @@ function Card(props) {
           </a>
           <a
             target="_blank"
-            href={props.cardData.socialMediaLiks.linkedIn}
+            href={props.socialMediaLiks.linkedIn}
             className="btn btn-primary"
           >
             <img src={require("./linkedin.png")} />
