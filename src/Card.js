@@ -2,8 +2,6 @@ import React from "react";
 import "./App.css";
 
 function Card(props) {
-  console.log(props);
-
   return (
     <div className="card">
       <div className="card-body">
