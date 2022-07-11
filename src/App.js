@@ -18,8 +18,8 @@ function App() {
     },
     {
       name: "Eladie Bumbar",
-      skillBrainPosition: "Mentorul mentorului",
-      actualJob: "Sclav",
+      skillBrainPosition: "Student",
+      actualJob: "Frontend Developer",
       shortDesctioption:
         "Junior Front-End Developer enthusiast, seek and maintain full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.",
       socialMediaLiks: {
