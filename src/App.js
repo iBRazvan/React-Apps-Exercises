@@ -29,6 +29,19 @@ function App() {
       avatar: require("./images/Eladie.jpg"),
     },
     {
+      name: "Edu Adrian-Florentin",
+      skillBrainPosition: "Future Junior Front-End Developer",
+      actualJob: "Commerical Worker",
+      shortDesctioption:
+        "I am not one of the best Junior Front-End developers from the world, I’m not even from Romania, not even from my class, still I will become one of the best programmers soon, maybe not today, maybe not tomorrow, but in a couple of years, you are going to know my name!",
+      socialMediaLiks: {
+        gitHub: "https://github.com/Adrian-Edu",
+        linkedIn:
+          "https://www.linkedin.com/in/adrian-edu/",
+      },
+      avatar: require("./images/adrian edu.jpg"),
+    },
+    {   
       name: "Homoki Denis",
       skillBrainPosition: "Student",
       actualJob: "Frontend Developer",
