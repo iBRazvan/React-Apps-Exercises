@@ -53,6 +53,18 @@ function App() {
       },
       avatar: require("./images/homoki_denis.jpg"),
     },
+    {   
+      name: "Daniel Neagoe",
+      skillBrainPosition: "Front-End Developer Student",
+      actualJob: "Dispatcher",
+      shortDesctioption:
+        "A fast learner, open-minded and patient individual who recently discovered his potential and passion for programming, problem solving and logical thinking and wants to make a debut in the professional world of web development ",
+      socialMediaLiks: {
+        gitHub: "https://github.com/danielneagoe",
+        linkedIn: "https://www.linkedin.com/in/daniel-neagoe-601709223/",
+      },
+      avatar: require("./images/daniel_neagoe.jpg"),
+    },
   ];
 
   return (
