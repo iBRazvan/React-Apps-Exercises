@@ -1,19 +1,44 @@
-import './App.css';
-import { useState } from 'react';
+import React, { useState }  from "react";
 
-function App() {
-  const [count,  setCount] = useState(0);
+
+const App = () => {
+  const [temperatureValue, setTemperatureValue] = useState(10)
+  const [temperatureColor, setTemperatureColor] = useState("cold")
+
+  const increaseTemperature = () => {
+    if(temperatureValue === 30) return;
+
+    const newTemperature = temperatureValue + 1;
+
+    if(newTemperature >= 15) {
+      setTemperatureColor("hot");
+    }
+
+    setTemperatureValue(newTemperature);
+  };
+  
+  const decreaseTemperature = () => {
+    if(temperatureValue === 0) return;
+    const newTemperature = temperatureValue - 1;
+
+    if(newTemperature < 15) {
+      setTemperatureColor("cold");
+    }
+
+    setTemperatureValue(newTemperature);
+  }
+
   return (
-    <div className="App">
-      <button className='button' onClick={() => setCount(count * 10)}>x10</button>
-      <button className='button' onClick={() => setCount(count + 10)}>+10</button>
-      <button className='button' onClick={() => setCount(count + 1)}>+</button>
-      <button className='button' onClick={() => setCount(count - 1)}>-</button>
-      <button className='button' onClick={() => setCount(count - 10)}>-10</button>
-      <h1>{count}</h1>
-      <button className='button' onClick={() => setCount(0)}> Reset </button>
+    <div className="app-container">
+      <div class="temperature-display-container">
+        <div class={`temperature-display ${temperatureColor}`}>{temperatureValue}°C</div>
+      </div>
+      <div className="button-container">
+        <button onClick={() => increaseTemperature()}>+</button>
+        <button onClick={() => decreaseTemperature()}>-</button>
+      </div>
     </div>
-  );
-}
+  ) 
+}  
 
 export default App;
