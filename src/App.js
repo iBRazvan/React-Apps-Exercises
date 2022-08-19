@@ -17,6 +17,19 @@ function App() {
       avatar: require("./images/sapovalov_alexandru.jpg"),
     },
     {
+      name: "Robert Pirvan",
+      skillBrainPosition: "Future Junior Developer",
+      actualJob: "Engineer",
+      shortDesctioption:
+        "Junior Front-End Developer and Tech enthusiast with little experience building Web and cross-platform solutions in diverse areas of industry. Tech never stay the same. Human evolve non-stop witch mean tech time fly and continue to impress. Passionate about developing - the best reward I find doing my job. No pain - No Gain. I love chess and football.",
+
+      socialMediaLiks: {
+        gitHub: "https://github.com/pirvanrobert",
+        linkedIn: "https://www.linkedin.com/in/pirvan-robert-07655a1b0/",
+      },
+      avatar: require("./images/Robert.jpg"),
+    },
+    {
       name: "Eladie Bumbar",
       skillBrainPosition: "Student",
       actualJob: "Frontend Developer",
@@ -36,12 +49,11 @@ function App() {
         "I am not one of the best Junior Front-End developers from the world, I’m not even from Romania, not even from my class, still I will become one of the best programmers soon, maybe not today, maybe not tomorrow, but in a couple of years, you are going to know my name!",
       socialMediaLiks: {
         gitHub: "https://github.com/Adrian-Edu",
-        linkedIn:
-          "https://www.linkedin.com/in/adrian-edu/",
+        linkedIn: "https://www.linkedin.com/in/adrian-edu/",
       },
       avatar: require("./images/adrian edu.jpg"),
     },
-    {   
+    {
       name: "Homoki Denis",
       skillBrainPosition: "Student",
       actualJob: "Frontend Developer",
@@ -53,7 +65,7 @@ function App() {
       },
       avatar: require("./images/homoki_denis.jpg"),
     },
-    {   
+    {
       name: "Daniel Neagoe",
       skillBrainPosition: "Front-End Developer Student",
       actualJob: "Dispatcher",
