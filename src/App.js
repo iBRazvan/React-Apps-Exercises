@@ -81,7 +81,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Andromeda Team</h1>
+      <h1>Andromeda & Sirius</h1>
       <div className="content-container">
         {data.map((item) => (
           <Card
