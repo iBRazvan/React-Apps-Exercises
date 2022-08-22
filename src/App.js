@@ -82,7 +82,7 @@ function App() {
       skillBrainPosition: "Student",
       actualJob: "Frontend Developer",
       shortDesctioption:
-        "I am a self-driven front-end developer and have been in the industry for more than one year. I have a keen eye for detail and for my work I do. In addition, I have also finished an SkillBrain Front-End Web Development Training Course in 2022. I am a person who is able to control a situation rather than have a situation control me. (...)",
+        "I am a self-driven front-end developer and have been in the industry for more than one year. I have a keen eye for detail and for the work I do. In addition, I have also finished an SkillBrain Front-End Web Development Training Course in 2022. I am a person who is able to control a situation rather than have a situation control me. (...)",
       socialMediaLiks: {
         gitHub: "https://github.com/iBRazvan",
         linkedIn:
